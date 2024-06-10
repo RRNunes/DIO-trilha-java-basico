@@ -4,9 +4,11 @@ import java.util.Scanner;
 public class Contador {
     public static void main(String[] args) {
 
-        Scanner leitor = new Scanner(System.in);
+        final Scanner leitor = new Scanner(System.in);
+
         System.out.println("Digite o primeiro parâmetro: ");
         int parametroUm = leitor.nextInt();
+
         System.out.println("Digite segundo parâmetro: ");
         int parametroDois = leitor.nextInt();
 
@@ -17,6 +19,7 @@ public class Contador {
             System.out.println(e.getMessage());
 
         }
+        leitor.close();
     }
     static void contar(int parametroUm, int parametroDois) throws InvalidParameterException {
         if (parametroUm > parametroDois) {
