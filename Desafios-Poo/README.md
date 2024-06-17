@@ -1,18 +1,15 @@
-## Getting Started
+# Diagramação de Classes do iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## POO - Desafio - DIO
 
-## Folder Structure
+### Modelagem e Diagramação de um Componente iPhone
 
-The workspace contains two folders by default, where:
+Neste desafio, você será responsável por modelar e diagramar a representação UML do componente iPhone, abrangendo suas funcionalidades como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Objetivo
+1. Criar um diagrama UML que represente as funcionalidades.
+2. Implementar as classes e interfaces correspondentes em Java (Opcional).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## UML
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+[![](https://mermaid.ink/img/pako:eNqFksFOwzAMhl-lymmI7QV6QJrgwoFpYohTL17itRZpXLlJBZv67qRbN22kQC6JnV-_vzg-KM0GVa60hbZ9IigF6sIVLovrmMtesRE2wbO8hJY02Oxwuh7WvWcNMrvLOiZzlW4gtFP5Fi1qYgej2WzjhVyZ1cfoWt7fUiwbELQVv0WDHTvSfINhqYzlRjMXahROaoNHZ_A_FUVvAnlkESR-5_3f-knYFXRYgmF5dh7Fob9hxU_akqyhJHd5fxCb8ho6tWrFHSy3MIui7KSfeFsAS3s4205j_gpM64odnil_SMbLxeIhnYVEkf5TIkm6o-YqtrYGMnEQjwyF8hXWWKg8Hg3IR6EK10cdxNqbL6dV7iXgXAmHslL5Dmwbo9CY-MnjFF-yaGgAHud82PpvCAbzrg?type=png)](https://mermaid.live/edit#pako:eNqFksFOwzAMhl-lymmI7QV6QJrgwoFpYohTL17itRZpXLlJBZv67qRbN22kQC6JnV-_vzg-KM0GVa60hbZ9IigF6sIVLovrmMtesRE2wbO8hJY02Oxwuh7WvWcNMrvLOiZzlW4gtFP5Fi1qYgej2WzjhVyZ1cfoWt7fUiwbELQVv0WDHTvSfINhqYzlRjMXahROaoNHZ_A_FUVvAnlkESR-5_3f-knYFXRYgmF5dh7Fob9hxU_akqyhJHd5fxCb8ho6tWrFHSy3MIui7KSfeFsAS3s4205j_gpM64odnil_SMbLxeIhnYVEkf5TIkm6o-YqtrYGMnEQjwyF8hXWWKg8Hg3IR6EK10cdxNqbL6dV7iXgXAmHslL5Dmwbo9CY-MnjFF-yaGgAHud82PpvCAbzrg)
