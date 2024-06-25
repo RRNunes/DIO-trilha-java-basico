@@ -8,9 +8,13 @@ public class ContaPoupanca extends Conta {
 		super(cliente);
 	}
 
+	public ContaPoupanca() {
+		super();
+	}
+
 	@Override
 	public void imprimirExtrato() {
-		System.out.println("=== Extrato com.roberta.ibanco.conta.Conta Poupanca ===");
+		System.out.println("=== Extrato Conta Poupanca ===");
 		super.imprimirInfosComuns();
 	}
 }

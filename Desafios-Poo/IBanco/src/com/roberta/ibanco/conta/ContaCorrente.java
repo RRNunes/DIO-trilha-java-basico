@@ -8,6 +8,10 @@ public class ContaCorrente extends Conta {
 		super(cliente);
 	}
 
+	public ContaCorrente() {
+		super();
+	}
+
 	@Override
 	public void imprimirExtrato() {
 		System.out.println("=== Extrato com.roberta.ibanco.conta.Conta Corrente ===");

@@ -18,6 +18,10 @@ public abstract class Conta implements IConta {
 		this.cliente = cliente;
 	}
 
+	public Conta() {
+
+	}
+
 	@Override
 	public void sacar(double valor) {
 		saldo -= valor;
@@ -46,7 +50,7 @@ public abstract class Conta implements IConta {
 		return saldo;
 	}
 
-	protected void imprimirInfosComuns() {
+	public void imprimirInfosComuns() {
 		System.out.println(String.format("Titular: %s", this.cliente.getNome()));
 		System.out.println(String.format("Agencia: %d", this.agencia));
 		System.out.println(String.format("Numero: %d", this.numero));
