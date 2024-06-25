@@ -1,3 +1,8 @@
+package com.roberta.ibanco;
+
+import com.roberta.ibanco.conta.Conta;
+import com.roberta.ibanco.conta.ContaCorrente;
+import com.roberta.ibanco.conta.ContaPoupanca;
 
 public class Main {
 

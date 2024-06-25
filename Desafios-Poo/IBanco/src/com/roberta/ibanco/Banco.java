@@ -1,3 +1,7 @@
+package com.roberta.ibanco;
+
+import com.roberta.ibanco.conta.Conta;
+
 import java.util.List;
 
 public class Banco {

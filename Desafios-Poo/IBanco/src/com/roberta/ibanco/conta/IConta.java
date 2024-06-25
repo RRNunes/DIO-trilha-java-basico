@@ -1,3 +1,4 @@
+package com.roberta.ibanco.conta;
 
 public interface IConta {
 	

@@ -1,3 +1,6 @@
+package com.roberta.ibanco.conta;
+
+import com.roberta.ibanco.Cliente;
 
 public abstract class Conta implements IConta {
 	

@@ -1,3 +1,6 @@
+package com.roberta.ibanco.conta;
+
+import com.roberta.ibanco.Cliente;
 
 public class ContaCorrente extends Conta {
 
@@ -7,7 +10,7 @@ public class ContaCorrente extends Conta {
 
 	@Override
 	public void imprimirExtrato() {
-		System.out.println("=== Extrato Conta Corrente ===");
+		System.out.println("=== Extrato com.roberta.ibanco.conta.Conta Corrente ===");
 		super.imprimirInfosComuns();
 	}
 	
