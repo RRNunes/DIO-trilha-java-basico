@@ -24,18 +24,30 @@ public abstract class Conta implements IConta {
 
 	@Override
 	public void sacar(double valor) {
-		saldo -= valor;
+		if (valor > 0 && saldo >= valor) {
+			saldo -= valor;
+		} else {
+			System.out.println("Saldo insuficiente ou valor inválido.");
+		}
 	}
 
 	@Override
 	public void depositar(double valor) {
-		saldo += valor;
+		if (valor > 0) {
+			saldo += valor;
+		} else {
+			System.out.println("Valor de depósito inválido.");
+		}
 	}
 
 	@Override
 	public void transferir(double valor, IConta contaDestino) {
-		this.sacar(valor);
-		contaDestino.depositar(valor);
+		if (contaDestino != null && valor > 0) {
+			this.sacar(valor);
+			contaDestino.depositar(valor);
+		} else {
+			System.out.println("Valor ou conta de destino inválida.");
+		}
 	}
 
 	public int getAgencia() {
