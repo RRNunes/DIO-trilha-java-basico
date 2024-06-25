@@ -21,14 +21,16 @@ public class Main {
 		Conta conta = null;
 
 		do {
-			System.out.println("====MENU====");
-			System.out.println("Escolha uma opcao..." +
-					" 1- CONTA CORRENTE" +
-					" 2- CONTA POUPANÇA" +
-					" 3- SACAR" +
-					" 4- DEMOOSITAR" +
-					" 5- IMPRIMIR EXTRATO0" +
-					" 0- FINALIZAR");
+			System.out.println("============ MENU ============");
+			System.out.println("=====Escolha uma opcao...=====");
+			System.out.println("------------------------------");
+			System.out.println("| 1- CONTA CORRENTE       |");
+			System.out.println("| 2- CONTA POUPANÇA       |");
+			System.out.println("| 3- SACAR                |");
+			System.out.println("| 4- DEPOSITAR            |");
+			System.out.println("| 5- IMPRIMIR EXTRATO0    |");
+			System.out.println("| 0- FINALIZAR            |");
+			System.out.println("------------------------------");
 			opcao = leitor.nextInt();
 
 			switch (opcao) {
