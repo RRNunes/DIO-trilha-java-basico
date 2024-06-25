@@ -44,7 +44,7 @@ public class Main {
 					System.out.println("Digite apenas numero 1 ou numero 2");
 
 			}
-			leitor.reset();
+			
 		} while ( opcao != 0);
 		leitor.close();
 	}
