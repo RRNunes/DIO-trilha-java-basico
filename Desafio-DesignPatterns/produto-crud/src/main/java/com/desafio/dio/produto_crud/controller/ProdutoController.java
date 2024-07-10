@@ -16,15 +16,17 @@ public class ProdutoController {
     private ProdutoService produtoService;
 
     @GetMapping
-    public List<Produto> getAllProduto(){
+    public List<Produto> getAllProduto() {
         return produtoService.findAll();
     }
+
     @GetMapping("/{id}")
     public ResponseEntity<Produto> getProdutoById(@PathVariable Long id) {
         return produtoService.findById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
+
     @PostMapping
     public Produto createProduto(@RequestBody Produto produto) {
         return produtoService.save(produto);
@@ -45,7 +47,7 @@ public class ProdutoController {
         if (produtoService.findById(id).isPresent()) {
             produtoService.deleteById(id);
             return ResponseEntity.noContent().build();
-        }else {
+        } else {
             return ResponseEntity.notFound().build();
         }
     }
