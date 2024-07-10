@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Desafios-Poo.iml" filepath="$PROJECT_DIR$/Desafios-Poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IBanco/IBanco.iml" filepath="$PROJECT_DIR$/IBanco/IBanco.iml" />
+    </modules>
+  </component>
+</project>
